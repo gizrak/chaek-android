@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top"
+		android:orientation="vertical"
+		android:layout_marginBottom="50dp">
+		<TextView
+			android:id="@+id/tvId"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/bookshelf"
+			android:textSize="30sp"
+			android:gravity="center_horizontal|center_vertical" />
+		<ListView
+			android:id="@+id/lvBookList"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<com.google.ads.AdView 
+		android:id="@+id/adView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom"
+		ads:adUnitId="a14d99f4e2db202"
+		ads:adSize="BANNER"
+		ads:loadAdOnCreate="true" />
+</FrameLayout>

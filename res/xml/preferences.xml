@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/brightness_preferences">
+		<CheckBoxPreference
+			android:key="brightness_auto"
+			android:title="@string/brightness_auto_title"
+			android:summary="@string/brightness_auto_summary" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/appearance_preferences">
+		<ListPreference
+			android:key="day_night_mode"
+			android:title="@string/day_night_mode_title"
+			android:summary="@string/day_night_mode_summary"
+			android:entries="@array/day_night_mode_entries"
+			android:entryValues="@array/day_night_mode_entry_values"
+			android:dialogTitle="@string/day_night_mode_dialog_title"
+			android:defaultValue="Day" />
+		<ListPreference
+			android:key="font_type"
+			android:title="@string/font_type_title"
+			android:summary="@string/font_type_summary"
+			android:entries="@array/font_type_entries"
+			android:entryValues="@array/font_type_entry_values"
+			android:dialogTitle="@string/font_type_dialog_title"
+			android:defaultValue="DroidSerif-Regular" />
+		<ListPreference
+			android:key="font_size"
+			android:title="@string/font_size_title"
+			android:summary="@string/font_size_summary"
+			android:entries="@array/font_size_entries"
+			android:entryValues="@array/font_size_entry_values"
+			android:dialogTitle="@string/font_size_dialog_title"
+			android:defaultValue="medium" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/control_preferences">
+		<CheckBoxPreference
+			android:key="fling_use"
+			android:title="@string/fling_use_title"
+			android:summary="@string/fling_use_summary"
+			android:defaultValue="true"
+			android:enabled="true" />
+		<!-- 
+		<ListPreference
+			android:key="rotation_type"
+			android:title="@string/rotation_type_title"
+			android:summary="@string/rotation_type_summary"
+			android:entries="@array/rotation_type_entries"
+			android:entryValues="@array/rotation_type_entry_values"
+			android:dialogTitle="@string/rotation_type_dialog_title" />
+		 -->
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/misc_preferences">
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Preference - Day/Night Mode Entries -->
+	<string-array name="day_night_mode_entries">
+		<item>낮</item>
+		<item>밤</item>
+	</string-array>
+
+	<!-- Preference - Day/Night Mode Entry Values -->
+	<string-array name="day_night_mode_entry_values">
+		<item>Day</item>
+		<item>Night</item>
+	</string-array>
+
+	<!-- Preference - Font Size Entries -->
+	<string-array name="font_size_entries">
+		<item>매우 작게</item>
+		<item>작게</item>
+		<item>조금 작게</item>
+		<item>보통</item>
+		<item>조금 크게</item>
+		<item>크게</item>
+		<item>매우 크게</item>
+	</string-array>
+
+	<!-- Preference - Font Size Entry Values -->
+	<string-array name="font_size_entry_values">
+		<item>xx-small</item>
+		<item>x-small</item>
+		<item>small</item>
+		<item>medium</item>
+		<item>large</item>
+		<item>x-large</item>
+		<item>xx-large</item>
+	</string-array>
+
+	<!-- Preference - Font Type Entries -->
+	<string-array name="font_type_entries">
+		<item>Clockopia</item>
+		<item>DroidSans</item>
+		<item>DroidSansArabic</item>
+		<item>DroidSansFallback</item>
+		<item>DroidSansHebrew</item>
+		<item>DroidSansMono</item>
+		<item>DroidSansThai</item>
+		<item>DroidSerif-Regular</item>
+	</string-array>
+
+	<!-- Preference - Font Type Entry Values -->
+	<string-array name="font_type_entry_values">
+		<item>/system/fonts/Clockopia.ttf</item>
+		<item>/system/fonts/DroidSans.ttf</item>
+		<item>/system/fonts/DroidSansArabic.ttf</item>
+		<item>/system/fonts/DroidSansFallback.ttf</item>
+		<item>/system/fonts/DroidSansHebrew.ttf</item>
+		<item>/system/fonts/DroidSansMono.ttf</item>
+		<item>/system/fonts/DroidSansThai.ttf</item>
+		<item>/system/fonts/DroidSerif-Regular.ttf</item>
+	</string-array>
+
+	<!-- Preference - Rotation Type Entries -->
+	<string-array name="rotation_type_entries">
+		<item>항상</item>
+		<item>세로보기</item>
+		<item>가로보기</item>
+		<item>없음</item>
+		<item>기기 설정에 따름</item>
+	</string-array>
+
+	<!-- Preference - Rotation Type Entry Values -->
+	<string-array name="rotation_type_entry_values">
+		<item>Always</item>
+		<item>Portrait</item>
+		<item>Landscape</item>
+		<item>Never</item>
+		<item>Use Global Preference</item>
+	</string-array>
+
+</resources>

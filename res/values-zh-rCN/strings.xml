@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Chaek</string>
+	<string name="bookshelf">书架</string>
+
+	<!-- Context Menus -->
+	<string name="context_shortcut">创建快捷方式</string>
+	<string name="context_delete">删除</string>
+
+	<!-- Option Menus -->
+	<string name="menu_import">导入</string>
+	<string name="menu_cancel">取消</string>
+	<string name="menu_delete">删除</string>
+	<string name="menu_about">关于</string>
+	<string name="menu_info">信息</string>
+	<string name="menu_toc">TOC</string>
+	<string name="menu_bookmark">Bookmark</string>
+	<string name="menu_settings">设置</string>
+
+	<!-- Settings (brightness) -->
+	<string name="brightness_preferences">亮度</string>
+	<string name="brightness_auto_title">亮度自动</string>
+	<string name="brightness_auto_summary">勾选是否要将亮度设为自动</string>
+
+	<!-- Settings (appearance) -->
+	<string name="appearance_preferences">外观</string>
+	<string name="day_night_mode_key">白天_夜间_模式</string>
+	<string name="day_night_mode_title">白天/夜间模式</string>
+	<string name="day_night_mode_summary">选择白天/夜间模式。</string>
+	<string name="day_night_mode_dialog_title">白天/夜间模式</string>
+	<string name="statusbar_key">状态栏_自动</string>
+	<string name="statusbar_title">状态栏</string>
+	<string name="statusbar_summary">显示状态栏。</string>
+	<string name="font_size_title">字体大小</string>
+	<string name="font_size_summary">更改字体大小。</string>
+	<string name="font_size_dialog_title">字体大小</string>
+	<string name="font_type_title">字体</string>
+	<string name="font_type_summary">更改字体。</string>
+	<string name="font_type_dialog_title">字体</string>
+
+	<!-- Settings (control) -->
+	<string name="control_preferences">控制</string>
+	<string name="fling_use_key">fling_use</string>
+	<string name="fling_use_title">挥动手势</string>
+	<string name="fling_use_summary">您可以使用挥动动作。</string>
+	<string name="rotation_type_key">rotation_type</string>
+	<string name="rotation_type_title">旋转</string>
+	<string name="rotation_type_summary">选择旋转类型</string>
+	<string name="rotation_type_dialog_title">旋转</string>
+
+	<!-- Settings (misc) -->
+	<string name="misc_preferences">Misc.</string>
+
+	<!-- About -->
+	<string name="about_text">\
+	此程序是基于 Monocle library 的 Android 电子书阅读器。
+	致力于你的阅读, 尽可能扩大阅读区域。
+	简单快捷!
+	希望你会喜欢阅读电子书。
+	</string>
+
+	<!-- Dialogs -->
+	<string name="dlg_title_confirm">确定</string>
+	<string name="dlg_title_select">选择</string>
+	<string name="dlg_title_warning">警告</string>
+	<string name="dlg_title_error">错误</string>
+	<string name="dlg_importing">导入...</string>
+
+	<!-- Buttons -->
+	<string name="btn_yes">是</string>
+	<string name="btn_no">不</string>
+	<string name="btn_ok">确定</string>
+
+	<!-- Messages -->
+	<string name="msg_first_page">这是第一页。</string>
+	<string name="msg_last_page">这是最后一页。</string>
+
+	<string name="msg_no_books">没有书。</string>
+	<string name="msg_how_to_import">[菜单-导入] 你可以从 SD 卡导入图书文件。</string>
+	<string name="msg_duplicate_file">已存在。是否要继续?</string>
+	<string name="msg_no_file">文件不存在!</string>
+	<string name="msg_delete_confirm">你确定要删除此项目?</string>
+	<string name="msg_import_succeed">导入成功 (%2$d / %2$d)</string>
+	<string name="msg_delete_succeed">删除成功</string>
+</resources>

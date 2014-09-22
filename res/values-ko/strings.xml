@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">책(篇)</string>
+	<string name="bookshelf">책장</string>
+
+	<!-- Common Menus -->
+	<string name="str_title">제목</string>
+	<string name="str_author">저자</string>
+	<string name="str_publisher">출판사</string>
+	<string name="str_isbn">ISBN</string>
+	<string name="str_language">언어</string>
+
+	<!-- Context Menus -->
+	<string name="context_shortcut">메인화면에 바로가기 추가</string>
+	<string name="context_delete">삭제</string>
+
+	<!-- Option Menus -->
+	<string name="menu_import">가져오기</string>
+	<string name="menu_cancel">삭제</string>
+	<string name="menu_delete">삭제</string>
+	<string name="menu_about">프로그램</string>
+	<string name="menu_info">책 정보</string>
+	<string name="menu_toc">목차</string>
+	<string name="menu_bookmark">책갈피</string>
+	<string name="menu_settings">설정</string>
+
+	<!-- Settings (brightness) -->
+	<string name="brightness_preferences">밝기</string>
+	<string name="brightness_auto_title">자동 밝기</string>
+	<string name="brightness_auto_summary">밝기 자동조절 여부를 선택합니다.</string>
+
+	<!-- Settings (appearance) -->
+	<string name="appearance_preferences">모양새</string>
+	<string name="day_night_mode_title">주/야간 모드</string>
+	<string name="day_night_mode_summary">주/야간 모드를 설정합니다.</string>
+	<string name="day_night_mode_dialog_title">주간/야간</string>
+	<string name="statusbar_title">상태창</string>
+	<string name="statusbar_summary">상태창의 표시여부를 선택합니다.</string>
+	<string name="font_size_title">글자 크기</string>
+	<string name="font_size_summary">글자 크기를 조절합니다.</string>
+	<string name="font_size_dialog_title">글자 크기</string>
+	<string name="font_type_title">글꼴</string>
+	<string name="font_type_summary">글꼴을 선택합니다.</string>
+	<string name="font_type_dialog_title">글꼴</string>
+
+	<!-- Settings (control) -->
+	<string name="control_preferences">조작</string>
+	<string name="fling_use_title">쓸어넘기기</string>
+	<string name="fling_use_summary">책을 쓸어넘겨 페이지 이동할 수 있는 기능을 사용합니다.</string>
+	<string name="rotation_type_title">화면 회전</string>
+	<string name="rotation_type_summary">화면 회전을 지정합니다.</string>
+	<string name="rotation_type_dialog_title">화면 회전</string>
+
+	<!-- Settings (misc) -->
+	<string name="misc_preferences">기타</string>
+
+	<!-- About -->
+	<string name="about_text">\
+	이 프로그램은 Monocle 라이브러리를 이용한 간결하고 빠른 전자책 리더입니다.
+	무엇보다 책을 읽는다는 점에 초점을 맞추어 제작하려고 하였으며,
+	쉽고 빠르며 가벼운 전자책 리더로서 여러분의 책읽는 습관에
+	조금이나마 도움이 되길 바랍니다. 감사합니다.
+	</string>
+
+	<!-- Dialogs -->
+	<string name="dlg_title_select">선택</string>
+	<string name="dlg_title_warning">경고</string>
+	<string name="dlg_title_error">오류</string>
+	<string name="dlg_importing">가져오는 중...</string>
+	<string name="dlg_deleting">삭제하는 중...</string>
+
+	<!-- Buttons -->
+	<string name="btn_yes">예</string>
+	<string name="btn_no">아니오</string>
+	<string name="btn_ok">확인</string>
+	<string name="btn_cancel">취소</string>
+
+	<!-- Message -->
+	<string name="msg_first_page">첫 페이지 입니다.</string>
+	<string name="msg_last_page">마지막 페이지 입니다.</string>
+
+	<string name="msg_no_books">책이 없습니다.</string>
+	<string name="msg_how_to_import">[메뉴-가져오기]를 통해 책 파일을 추가하십시오.</string>
+	<string name="msg_duplicate_file">동일한 책은 추가할 수 없습니다. 계속 진행하겠습니까??</string>
+	<string name="msg_no_file">책 파일을 찾을 수 없습니다.</string>
+	<string name="msg_delete_confirm">책을 삭제하시겠습니까?</string>
+	<string name="msg_import_succeed">책 가져오기 성공 (%2$d / %2$d)</string>
+	<string name="msg_delete_succeed">책을 삭제하였습니다.</string>
+	<string name="msg_preference_changed">%s(이)가 변경되었습니다.</string>
+
+	<string name="msg_bookmark_succeed">페이지가 책갈피에 추가되었습니다.</string>
+	<string name="msg_bookmark_removed">북마크가 삭제되었습니다.</string>
+	
+	<string name="msg_invalid_book_type">책정보가 잘못되었습니다.</string>
+	<string name="msg_invalid_toc">목차정보가 잘못되었습니다.</string>
+</resources>

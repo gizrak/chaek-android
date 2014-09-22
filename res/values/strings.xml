@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Chaek</string>
+	<string name="bookshelf">BookShelf</string>
+
+	<!-- Common Menus -->
+	<string name="str_title">Title</string>
+	<string name="str_author">Author</string>
+	<string name="str_publisher">Publisher</string>
+	<string name="str_isbn">ISBN</string>
+	<string name="str_language">Language</string>
+
+	<!-- Context Menus -->
+	<string name="context_shortcut">Create Shortcut</string>
+	<string name="context_delete">Delete This Item</string>
+
+	<!-- Option Menus -->
+	<string name="menu_import">Import</string>
+	<string name="menu_cancel">Cancel</string>
+	<string name="menu_delete">Delete</string>
+	<string name="menu_about">About</string>
+	<string name="menu_info">Info</string>
+	<string name="menu_toc">TOC</string>
+	<string name="menu_bookmark">Bookmark</string>
+	<string name="menu_settings">Settings</string>
+
+	<!-- Settings (brightness) -->
+	<string name="brightness_preferences">Brightness</string>
+	<string name="brightness_auto_title">Brightness Auto</string>
+	<string name="brightness_auto_summary">Check if want be a auto brightness</string>
+
+	<!-- Settings (appearance) -->
+	<string name="appearance_preferences">Appearances</string>
+	<string name="day_night_mode_title">Day/Night Mode</string>
+	<string name="day_night_mode_summary">Choose day/night mode.</string>
+	<string name="day_night_mode_dialog_title">Day/Night Mode</string>
+	<string name="statusbar_key">statusbar_auto</string>
+	<string name="statusbar_title">Status Bar</string>
+	<string name="statusbar_summary">Show status bar.</string>
+	<string name="font_size_title">Font Size</string>
+	<string name="font_size_summary">Changes font size.</string>
+	<string name="font_size_dialog_title">Font Size</string>
+	<string name="font_type_title">Font Type</string>
+	<string name="font_type_summary">Changes font type.</string>
+	<string name="font_type_dialog_title">Font Type</string>
+
+	<!-- Settings (control) -->
+	<string name="control_preferences">Controls</string>
+	<string name="fling_use_title">Fling Gesture</string>
+	<string name="fling_use_summary">You can use fling event.</string>
+	<string name="rotation_type_title">Rotation</string>
+	<string name="rotation_type_summary">Choose rotation type.</string>
+	<string name="rotation_type_dialog_title">Rotation</string>
+
+	<!-- Settings (misc) -->
+	<string name="misc_preferences">Misc.</string>
+
+	<!-- About -->
+	<string name="about_text">\
+	This program is Android eBook reader based on Monocle library.
+	Focused on your reading, expand reading area as wide as possible.
+	Simple and fast!
+	I hope you enjoy reading eBooks.
+	</string>
+
+	<!-- Dialogs -->
+	<string name="dlg_title_select">Select</string>
+	<string name="dlg_title_warning">Warning</string>
+	<string name="dlg_title_error">Error</string>
+	<string name="dlg_importing">Importing...</string>
+	<string name="dlg_deleting">Deleting...</string>
+
+	<!-- Buttons -->
+	<string name="btn_yes">Yes</string>
+	<string name="btn_no">No</string>
+	<string name="btn_ok">OK</string>
+	<string name="btn_cancel">Cancel</string>
+
+	<!-- Messages -->
+	<string name="msg_first_page">This is the first page.</string>
+	<string name="msg_last_page">This is the last page.</string>
+
+	<string name="msg_no_books">No books.</string>
+	<string name="msg_how_to_import">[Menu-Import] You can import book files from SDCard.</string>
+	<string name="msg_duplicate_file">Book already exist. Keep going other books?</string>
+	<string name="msg_no_file">File not exists!</string>
+	<string name="msg_delete_confirm">Are you sure to delete this item?</string>
+	<string name="msg_import_succeed">Import succeed (%2$d / %2$d)</string>
+	<string name="msg_delete_succeed">Delete succeed</string>
+	<string name="msg_preference_changed">%s is changed. </string>
+
+	<string name="msg_bookmark_succeed">Page bookmarked successfully.</string>
+	<string name="msg_bookmark_removed">Bookmark was removed.</string>
+	
+	<string name="msg_invalid_book_type">Invalid book type.</string>
+	<string name="msg_invalid_toc">Invalid table of contents.</string>
+</resources>

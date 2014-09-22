@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="BOOK_TBL_NAME">BOOK</string>
+	<string name="BOOK_TBL_FIELDS">	
+		_id 				INTEGER	PRIMARY KEY AUTOINCREMENT
+		,book_type			TEXT	NOT NULL
+		,book_title			TEXT	NOT NULL
+		,book_author		TEXT
+		,book_publisher		TEXT
+		,book_isbn			TEXT
+		,book_language		TEXT
+		,book_image			BLOB
+		,book_path			TEXT
+		,book_curChapter	INTEGER	DEFAULT 1
+		,book_curPage		INTEGER	DEFAULT 1
+		,book_curPercentage	FLOAT  	DEFAULT 0.0
+	</string>
+	<string name="TOC_TBL_NAME">TOC</string>
+	<string name="TOC_TBL_FIELDS">
+		_id				INTEGER	PRIMARY KEY AUTOINCREMENT
+		,toc_book_id	INTEGER	NOT NULL
+		,toc_seq		INTEGER	DEFAULT 0
+		,toc_title		TEXT	NOT NULL
+		,toc_url		TEXT	NOT NULL
+		,toc_anchor		TEXT
+	</string>
+	<string name="BM_TBL_NAME">Bookmark</string>
+	<string name="BM_TBL_FIELDS">
+		_id				INTEGER	PRIMARY KEY AUTOINCREMENT
+		,bm_book_id		INTEGER	NOT NULL
+		,bm_chapter		INTEGER	DEFAULT 1
+		,bm_percentage	FLOAT	DEFAULT 0.0
+	</string>
+</resources>

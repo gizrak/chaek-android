@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_import"
+		android:title="@string/menu_import"
+		android:icon="@drawable/ic_menu_add"
+		android:alphabeticShortcut="i" />
+	<item android:id="@+id/menu_delete"
+		android:title="@string/menu_delete"
+		android:icon="@drawable/ic_menu_delete"
+		android:alphabeticShortcut="d" />
+	<item android:id="@+id/menu_about"
+		android:title="@string/menu_about"
+		android:icon="@drawable/ic_menu_info_details"
+		android:alphabeticShortcut="a" />
+</menu>
